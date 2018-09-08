@@ -1,5 +1,5 @@
 const iota = require('@iota/core');
-const iota_nodes = require('./iota_nodes');
+const iota_nodes = require('../constants/iota_nodes');
 
 const node = iota_nodes.IOTA_NODE.ISMB.iotanode1.host + ":" + iota_nodes.IOTA_NODE.ISMB.iotanode1.port;
 

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "getNodeInfo": "node $NODE_DEBUG_OPTION getNodeInfo.js",
-    "getMyNodeInfo": "node $NODE_DEBUG_OPTION getMyNodeInfo.js"
+    "getMyNodeInfo": "node $NODE_DEBUG_OPTION getMyNodeInfo.js",
+    "generateNewSeed": "node $NODE_DEBUG_OPTION generateNewSeed.js"
   },
   "keywords": [
     "IOTA"
@@ -14,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@iota/core": "^1.0.0-beta.5",
-    "@iota/http-client": "^1.0.0-beta.5"
+    "@iota/http-client": "^1.0.0-beta.5",
+    "randomstring": "^1.1.5"
   }
 }
