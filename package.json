@@ -1,0 +1,19 @@
+{
+  "name": "iota_lib_examples",
+  "version": "0.0.1",
+  "description": "IOTA client sample library",
+  "main": "index.js",
+  "scripts": {
+    "getNodeInfo": "node $NODE_DEBUG_OPTION getNodeInfo.js",
+    "getMyNodeInfo": "node $NODE_DEBUG_OPTION getMyNodeInfo.js"
+  },
+  "keywords": [
+    "IOTA"
+  ],
+  "author": "Francesco Longo",
+  "license": "ISC",
+  "dependencies": {
+    "@iota/core": "^1.0.0-beta.5",
+    "@iota/http-client": "^1.0.0-beta.5"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "IOTA_NODE": {
+    "carrIOTAFieldProvider": {
+      "host": "https://field.carriota.com",
+      "port": 443
+    },
+    "ISMB": {
+      "iotanode0": {
+        "host": "http://130.192.92.226",
+        "port": 14265
+      },
+      "iotanode1": {
+        "host": "http://130.192.85.35",
+        "port": 14265
+      },
+      "iotanode2": {
+        "host": "http://130.192.85.19",
+        "port": 14265
+      }
+    },
+    "IOTANode_01": {
+      "host": "http://node01.iotatoken.nl",
+      "port": 14265
+    },
+    "IOTANode_02": {
+      "host": "http://node02.iotatoken.nl",
+      "port": 14265
+    },
+    "IOTANode_03": {
+      "host": "http://node03.iotatoken.nl",
+      "port": 14265
+    },
+    "IOTANode_04": {
+      "host": "http://node04.iotatoken.nl",
+      "port": 14265
+    },
+    "IOTANode_05": {
+      "host": "http://node05.iotatoken.nl",
+      "port": 14265
+    },
+    "IOTANode_06": {
+      "host": "http://node06.iotatoken.nl",
+      "port": 14265
+    }
+  }
+}
