@@ -1,4 +1,4 @@
-/** GET x ADDRESSES FROM A SEED */
+/** GET x ADDRESSES FROM A SEED AND ATTACH TO THE TANGLE **/
 
 const iota = require('@iota/core');
 const iota_nodes = require('../constants/iota_nodes');
