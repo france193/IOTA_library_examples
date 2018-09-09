@@ -1,3 +1,5 @@
+/** GET MY IOTA NODE INFO */
+
 const iota = require('@iota/core');
 const iota_nodes = require('../constants/iota_nodes');
 

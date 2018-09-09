@@ -1,3 +1,5 @@
+/** GET IOTA NODE INFO */
+
 const iota = require('@iota/core');
 const iota_nodes = require('../constants/iota_nodes');
 
@@ -7,7 +9,7 @@ const api = iota.composeAPI({
     provider: node
 });
 
-console.log(node);
+console.log("IOTA node: " + node);
 
 api.getNodeInfo()
     .then(function (info) {

@@ -1,4 +1,5 @@
 /** CREATE A NEW SEED */
+
 const randomstring = require('randomstring');
 
 const SEED_length = 81;

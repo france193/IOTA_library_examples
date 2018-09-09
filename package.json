@@ -4,9 +4,15 @@
   "description": "IOTA client sample library",
   "main": "index.js",
   "scripts": {
-    "getNodeInfo": "node $NODE_DEBUG_OPTION getNodeInfo.js",
-    "getMyNodeInfo": "node $NODE_DEBUG_OPTION getMyNodeInfo.js",
-    "generateNewSeed": "node $NODE_DEBUG_OPTION generateNewSeed.js"
+    "getNodeInfo": "node $NODE_DEBUG_OPTION ./examples/getNodeInfo.js",
+    "getMyNodeInfo": "node $NODE_DEBUG_OPTION ./examples/getMyNodeInfo.js",
+    "getNewSeed": "node $NODE_DEBUG_OPTION ./examples/getNewSeed.js",
+    "getAccountData": "node $NODE_DEBUG_OPTION ./examples/getAccountData.js",
+    "getAllBalances": "node $NODE_DEBUG_OPTION ./examples/getAllBalances.js",
+    "getInputs": "node $NODE_DEBUG_OPTION ./examples/getInputs.js",
+    "sendTransferWithInputs": "node $NODE_DEBUG_OPTION ./examples/sendTransferWithInputs.js",
+    "getNewAddresses": "node $NODE_DEBUG_OPTION ./examples/getNewAddresses.js",
+    "getNewAddressesAndAttachToTangle": "node $NODE_DEBUG_OPTION ./examples/getNewAddressesAndAttachToTangle.js"
   },
   "keywords": [
     "IOTA"
@@ -16,6 +22,7 @@
   "dependencies": {
     "@iota/core": "^1.0.0-beta.5",
     "@iota/http-client": "^1.0.0-beta.5",
+    "@iota/unit-converter": "^1.0.0-beta.5",
     "randomstring": "^1.1.5"
   }
 }
